@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,400;1,600;1,800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+section h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+.price {
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 60px;
+    width: 100%;
+    padding: 0 30px;
+}
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info span {
+    font-size: 20px;
+    margin-left: 5px;
+}
+select {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+#btn {
+    width: 100px;
+    height: 20px;
+    border: 1px solid #222;
+    background-color: #fff;
+    border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+    .price {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

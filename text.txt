@@ -1,0 +1,1 @@
+api link : "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=edae4b4cddb443018b902ff846e3b5c0"
